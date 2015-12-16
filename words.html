@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title><words></title>
+    <script src="words.js"></script>
+</head>
+<body>
+    <form action="#" method="post" id="theForm">
+        <fieldset>
+            <legend>英単語をソート</legend>
+            <p>下のテキスト入力に英単語を入力してください。単語は半角スペースで区切ります。ボタンとクリックすると、単語の大文字小文字の違いを吸収したソート結果が表示されます。</p>
+            <div>
+                <label for="words">単語</label>
+                <input type="text" name="words" id="words" required>
+            </div>
+                <input type="submit" value="ソート" id="submit">
+                <h2>ソート結果</h2>
+                <div id="output"></div>
+        </fieldset>
+    </form>
+</body>
+</html>
